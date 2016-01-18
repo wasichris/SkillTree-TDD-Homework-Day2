@@ -18,7 +18,8 @@ namespace PotterShoppingCart
             {
                 new DiscountPackage{BookName="Harry Potter", PackageSize = 2, PackageRate = 0.95},
                 new DiscountPackage{BookName="Harry Potter", PackageSize = 3, PackageRate = 0.9},
-                new DiscountPackage{BookName="Harry Potter", PackageSize = 4, PackageRate = 0.8}
+                new DiscountPackage{BookName="Harry Potter", PackageSize = 4, PackageRate = 0.8},
+                new DiscountPackage{BookName="Harry Potter", PackageSize = 5, PackageRate = 0.75}
             };
         }
 
