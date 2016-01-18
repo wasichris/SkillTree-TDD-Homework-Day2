@@ -16,7 +16,7 @@ namespace PotterShoppingCart
 
         public int GetTotalPrice()
         {
-            throw new NotImplementedException();
+            return _books.Select(x => x.SellPrice).Sum();
         }
     }
 }
